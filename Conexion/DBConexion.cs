@@ -11,7 +11,7 @@ namespace XamppTest.Conexion
     {
         public static MySqlConnection ObtenerConexion()
         {
-            string strconn = "server =192.168.137.1; database = mibase; Uid=root; Port=3306; pwd=proyecto;";
+            string strconn = "server =192.168.8.21; database = mibase; Uid=root; Port=3306; pwd=proyecto;";
             MySqlConnection conn = new MySqlConnection(strconn);
             conn.Open();
             return conn;
